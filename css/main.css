@@ -57,10 +57,18 @@ body{
 .pie-uno h2{
     text-align: center;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .pie-uno div{
     text-align: center;
+}
+
+.pie-dos div{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /*media queries index*/
