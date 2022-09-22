@@ -52,6 +52,11 @@ body{
     margin: 30px;
 }
 
+.nosotros p{
+    font-size: 22px;
+    text-align: center;
+}
+
 /*estilos del footer*/
 
 .pie-uno h2{
