@@ -1,0 +1,25 @@
+/*estilos del header*/
+
+/*estilos del main*/
+
+.evento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    .card{
+        background-color: #1B2430;
+        .card-body{
+            color: white;
+        }
+    }
+}
+
+
+/*estilos del footer*/
+
+.pie-cuatro{
+    div{
+        color: white;
+    }
+}

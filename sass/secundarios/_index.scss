@@ -1,0 +1,59 @@
+/*estilos del header*/
+
+.encabezado{
+    text-align: center;
+    img{
+        height: 120px;
+    }
+    .navegacion-uno{
+        .navbar-toggler-icon{
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+        .navbar-toggler{
+            border: 1px solid red;
+            
+        }
+        ul{
+            li{
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+/*estilos del main*/
+
+.import{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1{
+        text-align: center;
+        color: white;
+    }
+    .p-uno{
+        text-align: center;
+        color: white;
+    }
+    img{
+        height: 500px;
+        margin: 30px;
+    }
+}
+
+/*Estilos de footer*/
+
+.pie-uno{
+    h2{
+        text-align: center;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    div{
+        text-align: center;
+    }
+}

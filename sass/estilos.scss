@@ -1,0 +1,23 @@
+//Utilities
+
+@import "utilities/variables";
+
+/*imagen de fondo para todos los htmls*/
+body{
+    background-image: url("../img/fondo2.jpg");
+    font-family: 'roboto', sans-serif;
+}
+
+//conexion con HTMLs
+@import "secundarios/reset";
+@import "secundarios/index";
+@import "secundarios/nosotros";
+@import "secundarios/menu";
+@import "secundarios/contacto";
+@import "secundarios/evento";
+
+
+
+
+
+
