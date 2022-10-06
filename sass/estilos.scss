@@ -9,12 +9,18 @@ body{
 }
 
 //conexion con HTMLs
+
 @import "secundarios/reset";
 @import "secundarios/index";
 @import "secundarios/nosotros";
 @import "secundarios/menu";
 @import "secundarios/contacto";
 @import "secundarios/evento";
+
+
+//media queries
+
+@import "secundarios/mediaqueries";
 
 
 
