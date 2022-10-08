@@ -157,7 +157,7 @@ footer {
           transform: translateY(10px);
           transition: transform .5s, color .3s; }
       .main-nosotros .form .form-container .form-submit {
-        background-color: #3866f2;
+        background-color: red;
         color: #fff;
         font-weight: 300;
         font-size: 1rem;
