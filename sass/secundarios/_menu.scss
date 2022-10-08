@@ -5,6 +5,12 @@
 /*estilos del main*/
 .menu{
     margin-top: 100px;
+
+    .cubiertos{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
     h1{
         color: white;
         text-align: center;
