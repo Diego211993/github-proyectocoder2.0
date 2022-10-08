@@ -11,8 +11,7 @@
     }
     .menu-uno{
         h2{
-            margin-top: 50px;
-            color: white;
+            @include sizen(white, 50px)
         }
         p{
             color: white;
@@ -23,8 +22,7 @@
     }
     .menu-dos{
         h2{
-            color: white;
-            margin-top: 50px;
+            @include sizen(white, 50px)
         }
         p{
             color: white;
@@ -36,8 +34,7 @@
 
     .menu-tres{
         h2{
-            color: white;
-            margin-top: 50px;
+            @include sizen(white, 50px)
         }
         p{
             color: white;
