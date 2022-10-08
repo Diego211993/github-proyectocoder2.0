@@ -38,14 +38,10 @@ body {
     margin: 30px; }
 
 /*Estilos de footer*/
-.pie-uno h2 {
+.pie-uno div {
   text-align: center;
   color: white;
-  font-size: 20px;
   font-weight: bold; }
-
-.pie-uno div {
-  text-align: center; }
 
 /*Estilos del header*/
 /*estilos del main*/
@@ -61,12 +57,10 @@ body {
     margin: 2rem; }
 
 /*estilos del footer*/
-.pie-dos h3 {
-  color: white;
-  text-align: center; }
-
 .pie-dos div {
-  text-align: center; }
+  text-align: center;
+  color: white;
+  font-weight: bold; }
 
 /*estilos del header*/
 /*estilos del main*/
@@ -100,11 +94,10 @@ body {
 /*estilos del footer*/
 footer {
   margin-top: 25px; }
-  footer h3 {
-    color: white;
-    text-align: center; }
   footer div {
-    text-align: center; }
+    text-align: center;
+    color: white;
+    font-weight: bold; }
 
 /*estilos del header*/
 /*estilos del main*/
@@ -167,7 +160,8 @@ footer {
 
 /*estilos del header*/
 .pie-tres div {
-  color: white; }
+  color: white;
+  font-weight: bold; }
 
 /*estilos del header*/
 /*estilos del main*/
@@ -183,7 +177,8 @@ footer {
 
 /*estilos del footer*/
 .pie-cuatro div {
-  color: white; }
+  color: white;
+  font-weight: bold; }
 
 /* MEDIA QUERIES*/
 @media screen and (min-width: 600px) {
