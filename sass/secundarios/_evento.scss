@@ -3,14 +3,24 @@
 /*estilos del main*/
 
 .evento{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    .card{
-        background-color: #1B2430;
-        .card-body{
-            color: white;
+    margin-top: 100px;
+    .micro{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    h1{
+        text-align: center;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 70px;
+        margin-top: 40px;
+    }
+    .container{
+        .card{
+            background-color: #1B2430;
+            .card-body{
+                color: white;
+            }
         }
     }
 }

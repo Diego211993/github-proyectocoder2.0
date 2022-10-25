@@ -6,6 +6,12 @@
 .menu{
     margin-top: 100px;
 
+    .container{
+        div{
+            text-align: center;
+        }
+    }
+
     .cubiertos{
         display: flex;
         justify-content: center;
@@ -14,6 +20,8 @@
     h1{
         color: white;
         text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 70px;
     }
     .menu-uno{
         h2{

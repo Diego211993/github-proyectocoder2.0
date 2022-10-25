@@ -6,6 +6,22 @@
 .main-nosotros{
     display: flex;
     min-height: 100vh;
+    flex-direction: column;
+    margin-top: 100px;
+
+    .icono{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .contacto{
+        text-align: center;
+        color: white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 30px;
+        margin-top: 40px;
+    }
 
     .form{
         background-color: #fff;
@@ -78,6 +94,13 @@
                 border-radius: .5em;
             }
         }
+    }
+    .video{
+        text-align: center;
+    }
+
+    .mapa{
+        text-align: center;
     }
 }
 
