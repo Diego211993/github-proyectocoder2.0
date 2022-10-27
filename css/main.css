@@ -33,9 +33,13 @@ body {
   .import .p-uno {
     text-align: center;
     color: white; }
-  .import img {
+  .import .resto {
+    display: none; }
+  .import .alitas {
     height: 500px;
-    margin: 30px; }
+    margin: 30px;
+    border: 4px solid white;
+    border-radius: 5px 2px 40px 0; }
 
 /*Estilos de footer*/
 .pie-uno div {
@@ -120,11 +124,13 @@ footer {
     display: flex;
     justify-content: center;
     margin-bottom: 50px; }
+    .main-nosotros .icono img {
+      height: 70px; }
   .main-nosotros .contacto {
     text-align: center;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
+    font-size: 70px;
     margin-top: 40px; }
   .main-nosotros .form {
     background-color: #fff;
@@ -240,13 +246,13 @@ footer {
           transform: scale(0.9); }
           header nav ul li:hover::before {
             width: 100%; }
-  /*estilos nuevos del main (MAIN DEL INDEX)*/
+  /*estilos nuevos del main (MAIN DEL INDEX (INICIO)*/
   .import {
     padding: 5rem;
     display: grid;
     grid-template-columns: 1fr 0.6fr;
     grid-template-rows: 0.3fr 1fr;
-    grid-template-areas: "h1 img" "p img"; }
+    grid-template-areas: "h1 alitas" "resto alitas" "p alitas"; }
     .import h1 {
       grid-area: h1;
       font-size: 3rem;
@@ -261,10 +267,16 @@ footer {
       transform: translateY(10px); }
     100% {
       transform: translateY(0); } }
-    .import img {
-      grid-area: img;
+    .import .resto {
+      grid-area: resto;
+      display: block;
+      justify-self: center;
+      height: 400px; }
+    .import .alitas {
+      grid-area: alitas;
       border: 4px solid white;
-      border-radius: 5px 2px 40px 0; }
+      border-radius: 5px 2px 40px 0;
+      height: 650px; }
     .import .p-uno {
       grid-area: p;
       margin: 5px;
@@ -277,6 +289,26 @@ footer {
       background-color: #181818;
       margin: 10px;
       padding: 10px; }
+  /*Estilos nuevos del main (MAIN DE CONTACTANOS)*/
+  .main-nosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "icono icono" "contacto contacto" "video form" "mapa form"; }
+    .main-nosotros .icono {
+      grid-area: icono; }
+    .main-nosotros .contacto {
+      grid-area: contacto; }
+    .main-nosotros .video {
+      grid-area: video;
+      display: flex;
+      justify-content: end; }
+    .main-nosotros .form {
+      grid-area: form; }
+    .main-nosotros .mapa {
+      grid-area: mapa;
+      display: flex;
+      justify-content: end; }
   /*estilos nuevos del main (MAIN DE EVENTOS)*/
   .evento .container {
     display: flex;
