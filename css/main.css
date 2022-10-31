@@ -29,7 +29,9 @@ body {
   align-items: center; }
   .import h1 {
     text-align: center;
-    color: white; }
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px; }
   .import .p-uno {
     text-align: center;
     color: white; }
@@ -53,10 +55,57 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .nosotros img {
+  .nosotros .icon {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 70px; }
+  .nosotros .titulo {
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 70px; }
+  .nosotros .equipo {
     height: 350px;
     margin: 3rem; }
+  .nosotros .conocenos {
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #181818;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace; }
   .nosotros .parrafo {
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold; }
+  .nosotros .mision {
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #181818;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace; }
+  .nosotros .parr-uno {
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold; }
+  .nosotros .vision {
+    color: white;
+    margin: 2rem;
+    text-align: center;
+    font-weight: bold;
+    background-color: #181818;
+    padding: 10px;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace; }
+  .nosotros .parr-dos {
     color: white;
     margin: 2rem;
     text-align: center;
@@ -219,7 +268,7 @@ footer {
   font-weight: bold; }
 
 /* MEDIA QUERIES*/
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1024px) {
   /*estilos nuevos del header (para todos los htmls)*/
   header {
     display: flex;
@@ -281,6 +330,38 @@ footer {
       grid-area: p;
       margin: 5px;
       font-size: 1.5rem; }
+  /*estilos nuevos del main (MAIN DEL SOBRE NOSOTROS)*/
+  .nosotros {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "icon icon" "titulo titulo" "conocenos equipo" "parrafo equipo" "mision equipo" "parr-uno equipo" "vision equipo" "parr-dos equipo"; }
+    .nosotros .icon {
+      grid-area: icon;
+      text-align: center; }
+    .nosotros .titulo {
+      grid-area: titulo; }
+    .nosotros .conocenos {
+      grid-area: conocenos;
+      width: 50%;
+      justify-self: center; }
+    .nosotros .parrafo {
+      grid-area: parrafo; }
+    .nosotros .equipo {
+      grid-area: equipo;
+      height: 630px; }
+    .nosotros .mision {
+      grid-area: mision;
+      width: 30%;
+      justify-self: center; }
+    .nosotros .parr-uno {
+      grid-area: parr-uno; }
+    .nosotros .vision {
+      grid-area: vision;
+      width: 30%;
+      justify-self: center; }
+    .nosotros .parr-dos {
+      grid-area: parr-dos; }
   /*estilos nuevos del main (MAIN DEL MENU)*/
   .menu .container {
     display: flex;

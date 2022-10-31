@@ -1,6 +1,6 @@
 /* MEDIA QUERIES*/
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 1024px){
 
     /*estilos nuevos del header (para todos los htmls)*/
 
@@ -90,11 +90,68 @@
         font-size: 1.5rem;
         }
     }
+    /*estilos nuevos del main (MAIN DEL SOBRE NOSOTROS)*/
+
+    .nosotros{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "icon icon"
+        "titulo titulo"
+        "conocenos equipo"
+        "parrafo equipo"
+        "mision equipo"
+        "parr-uno equipo"
+        "vision equipo"
+        "parr-dos equipo";
+
+        .icon{
+            grid-area: icon;
+            text-align: center;
+        }
+        .titulo{
+            grid-area: titulo;
+        }
+        .conocenos{
+            grid-area: conocenos;
+            width: 50%;
+            justify-self: center;
+        }
+        .parrafo{
+            grid-area: parrafo;
+        }
+        .equipo{
+            grid-area: equipo;
+            height: 630px;
+        }
+        .mision{
+            grid-area: mision;
+            width: 30%;
+            justify-self: center;
+        }
+        .parr-uno{
+            grid-area: parr-uno;
+        }
+        .vision{
+            grid-area: vision;
+            width: 30%;
+            justify-self: center;
+        }
+        .parr-dos{
+            grid-area: parr-dos;
+        }
+    }
+
+
+
+
     /*estilos nuevos del main (MAIN DEL MENU)*/
     .menu{
         .container{
         display: flex;
         padding: 10px;
+
 
 
         div{
@@ -173,3 +230,5 @@
 
     
 } /*llave final de la media queries (todo va adentro)*/
+
+
