@@ -31,7 +31,7 @@ body {
     text-align: center;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 70px; }
+    font-size: 50px; }
   .import .p-uno {
     text-align: center;
     color: white; }
@@ -179,7 +179,7 @@ footer {
     text-align: center;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 70px;
+    font-size: 50px;
     margin-top: 40px; }
   .main-nosotros .form {
     background-color: #fff;
