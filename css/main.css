@@ -268,7 +268,7 @@ footer {
   font-weight: bold; }
 
 /* MEDIA QUERIES*/
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 992px) {
   /*estilos nuevos del header (para todos los htmls)*/
   header {
     display: flex;
@@ -349,7 +349,7 @@ footer {
       grid-area: parrafo; }
     .nosotros .equipo {
       grid-area: equipo;
-      height: 630px; }
+      height: 450px; }
     .nosotros .mision {
       grid-area: mision;
       width: 30%;
